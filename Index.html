@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazzali - Eng Sara Ta'mlar Maskani</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Mazzali<span>.</span></a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Asosiy</a></li>
+                    <li><a href="#about" class="nav-link">Biz haqimizda</a></li>
+                    <li><a href="#menu" class="nav-link">Menyu</a></li>
+                    <li><a href="#gallery" class="nav-link">Galereya</a></li>
+                    <li><a href="#reservation" class="nav-link">Band qilish</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Haqiqiy Ta'mni <span>His Eting</span></h1>
+            <p>O'zbek va Yevropa taomlarining eng sara to'plami. Biz bilan har bir kuningiz bayramga aylanadi.</p>
+            <a href="#menu" class="btn btn-primary">Menyuni Ko'rish</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1934&auto=format&fit=crop" alt="Restoran ichki ko'rinishi">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">Biz <span>Haqimizda</span></h2>
+                <p>2010 yildan buyon "Mazzali" restorani o'zining noyob ta'mi, shinam muhiti va yuqori darajadagi xizmat ko'rsatishi bilan ajralib turadi. Bizning bosh oshpazimiz har bir taomni mehr bilan tayyorlaydi.</p>
+                <p>Maqsadimiz - mehmonlarimizga nafaqat ovqat, balki unutilmas xotiralar taqdim etishdir. Milliy an'analar va zamonaviy yondashuvni o'zida mujassam etgan maskanimizga tashrif buyuring.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-utensils"></i>
+                        <span>Malakali Oshpazlar</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>Yangi va Tabiiy Mahsulotlar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Bizning <span>Menyu</span></h2>
+                <p>Siz uchun maxsus tayyorlangan sara taomlar</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="menu-btn active">Barchasi</button>
+                <button class="menu-btn">Milliy Taomlar</button>
+                <button class="menu-btn">Salatlar</button>
+                <button class="menu-btn">Ichimliklar</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=1972&auto=format&fit=crop" alt="Palov">
+                    <div class="menu-item-info">
+                        <h3>To'y Oshi</h3>
+                        <p class="desc">Asl o'zbekcha palov, lahm go'sht, kazy, va bedana tuxumi bilan.</p>
+                        <span class="price">45,000 so'm</span>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1974&auto=format&fit=crop" alt="Shashlik">
+                    <div class="menu-item-info">
+                        <h3>Jaz Shashlik</h3>
+                        <p class="desc">Yangi so'yilgan qo'y go'shtidan tayyorlangan mazzali shashlik.</p>
+                        <span class="price">18,000 so'm</span>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop" alt="Salat">
+                    <div class="menu-item-info">
+                        <h3>Sezar Salati</h3>
+                        <p class="desc">Tovuq filesi, aysberg karami, parmezan pishlog'i va maxsus sous.</p>
+                        <span class="price">35,000 so'm</span>
+                    </div>
+                </div>
+                <!-- Menu Item 4 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1887&auto=format&fit=crop" alt="Choy">
+                    <div class="menu-item-info">
+                        <h3>Meva Choyi</h3>
+                        <p class="desc">Yangi uzilgan mevalar asosida tayyorlangan xushbo'y choy.</p>
+                        <span class="price">20,000 so'm</span>
+                    </div>
+                </div>
+                <!-- Menu Item 5 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1606660265514-358ebbadc80d?q=80&w=2070&auto=format&fit=crop" alt="Qozon kabob">
+                    <div class="menu-item-info">
+                        <h3>Qozon Kabob</h3>
+                        <p class="desc">Qovurilgan kartoshka va sersuv lahm go'sht.</p>
+                        <span class="price">65,000 so'm</span>
+                    </div>
+                </div>
+                <!-- Menu Item 6 -->
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1964&auto=format&fit=crop" alt="Shirinlik">
+                    <div class="menu-item-info">
+                        <h3>Asalli Tort (Medovik)</h3>
+                        <p class="desc">Uy sharoitida tayyorlangan yumshoq va mazzali shirinlik.</p>
+                        <span class="price">25,000 so'm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Foto <span>Galereya</span></h2>
+                <p>Restoranimizning shinam muhiti va taomlaridan lavhalar</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop" alt="Gallery 1"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop" alt="Gallery 2"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop" alt="Gallery 3"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?q=80&w=2070&auto=format&fit=crop" alt="Gallery 4"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop" alt="Gallery 5"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2070&auto=format&fit=crop" alt="Gallery 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation section-padding bg-light">
+        <div class="container reservation-container">
+            <div class="reservation-text">
+                <h2 class="section-title">Stol <span>Band Qilish</span></h2>
+                <p>O'zingiz va yaqinlaringiz uchun oldindan joy band qiling va bayramni xotirjam o'tkazing.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +998 90 123 45 67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Toshkent shahar, Yunusobod tumani, 10-mavze</p>
+                    <p><i class="far fa-clock"></i> Har kuni: 10:00 - 23:00</p>
+                </div>
+            </div>
+            <div class="reservation-form">
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" placeholder="Ismingiz" required>
+                        <input type="tel" placeholder="Telefon raqamingiz" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="date" required>
+                        <input type="time" required>
+                    </div>
+                    <select required>
+                        <option value="" disabled selected>Odamlar soni</option>
+                        <option value="1">1 Kishi</option>
+                        <option value="2">2 Kishi</option>
+                        <option value="3">3 Kishi</option>
+                        <option value="4">4 Kishi</option>
+                        <option value="5+">5+ Kishi</option>
+                    </select>
+                    <textarea placeholder="Qo'shimcha istaklar..." rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary full-width">Band qilish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Mazzali<span>.</span></h3>
+                <p>Eng sifatli mahsulotlardan tayyorlangan mazzali taomlar. Biz mijozlarimizning har bir tabassumini qadrlaymiz.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Tezkor Havolalar</h4>
+                <ul>
+                    <li><a href="#home">Asosiy</a></li>
+                    <li><a href="#about">Biz haqimizda</a></li>
+                    <li><a href="#menu">Menyu</a></li>
+                    <li><a href="#gallery">Galereya</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Aloqa</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Toshkent, Yunusobod tumani</li>
+                    <li><i class="fas fa-phone"></i> +998 90 123 45 67</li>
+                    <li><i class="fas fa-envelope"></i> info@mazzali.uz</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mazzali Restorani. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <!-- Simple Script for Mobile Menu & Sticky Header -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        mobileMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileMenu.querySelector('i').classList.toggle('fa-times');
+            mobileMenu.querySelector('i').classList.toggle('fa-bars');
+        });
+
+        // Sticky Header on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Close menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenu.querySelector('i').classList.add('fa-bars');
+                mobileMenu.querySelector('i').classList.remove('fa-times');
+            });
+        });
+    </script>
+</body>
+</html>
